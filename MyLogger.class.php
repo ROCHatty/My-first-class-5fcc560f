@@ -1,12 +1,11 @@
 <?php
 
-class MyLogger {
-	
+class MyLogger
+{
 	public function log($message)
 	{
-		echo $message.PHP_EOL;
+		echo $message . PHP_EOL;
 	}
-	
 }
 
 $logs = new MyLogger();
